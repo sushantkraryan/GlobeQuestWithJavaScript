@@ -7,6 +7,7 @@ fetch("https://restcountries.com/v3.1/all")
       console.log(country.name.common);
       const countryCard = document.createElement("a");
       countryCard.classList.add("country-card");
+      countryCard.href = `/Country.html?name=${country.name.common}`;
 
       const cardHTML = `
         <img src="${country.flags.svg}" alt="" />
@@ -21,3 +22,4 @@ fetch("https://restcountries.com/v3.1/all")
       countriesContainer.append(countryCard);
     });
   });
+

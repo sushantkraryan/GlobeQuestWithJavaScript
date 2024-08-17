@@ -75,3 +75,9 @@ a {
 .card-text p {
     margin-block: 8px;
 }
+
+@media(max-width: 768px) {
+    .countries-container {
+        justify-content: center;
+    }
+}
