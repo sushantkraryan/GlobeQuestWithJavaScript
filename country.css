@@ -11,6 +11,11 @@
     margin-top: 64px;
 }
 
+.country-details-container {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
 .country-details img {
     width: 40%;
 }
@@ -30,13 +35,16 @@
 
 .border-countries {
     margin-top: 48px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap:8px;
 }
 
 .border-countries a {
     padding: 4px 16px;
     box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    margin-inline: 4px;
     font-size: 14px;
 }
 
